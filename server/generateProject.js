@@ -107,6 +107,12 @@ function generateReactProject(userData, outputPath, res) {
 <button className="icon md:hidden text-white" onClick={toggleNav}>
     <i className="fa fa-bars"></i>
 </button>
+</div>
+  );
+};
+
+export default Header;
+
 `;
 
     // Write the customized Home.js file inside the src folder

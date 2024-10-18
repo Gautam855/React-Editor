@@ -9,7 +9,7 @@ const { generateReactProject } = require('./generateProject.js');
 // Set up multer for file uploads
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
-        cb(null, 'client/src/components/'); // Specify the upload directory
+        cb(null, 'client/public/'); // Specify the upload directory
     },
     filename: (req, file, cb) => {
         cb(null, 'copy.png'); // Save all uploaded files as copy.png
